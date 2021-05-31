@@ -79,12 +79,12 @@ public class Client extends Person {
     public String toString() {
         return
                 "ID: " + id +
-                "\nName: " + super.getName() +
-                "\nPhone: " + super.getPhone() +
-                "\nE-mail: " + super.getEmail() +
-                "\nAddress: " + super.getAddress() +
-                "\nRegistered date: " + super.getRegisteredDate() +
-                "\nPremium: " + premium +
-                "\nOrders amount: " + ordersAmount;
+                        "\nName: " + super.getName() +
+                        "\nPhone: " + super.getPhone() +
+                        "\nE-mail: " + super.getEmail() +
+                        "\nAddress: " + super.getAddress() +
+                        "\nRegistered date: " + super.getRegisteredDate() +
+                        "\nPremium: " + premium +
+                        "\nOrders amount: " + ordersAmount;
     }
 }
